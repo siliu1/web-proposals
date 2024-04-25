@@ -21,7 +21,7 @@ document.caretPositionFromPoint(double x, double y, ShadowRoot... shadowRoots)
 the returned caret position will only be in the shadow root if it's provided in `shadowRoots` argument. Otherwise, tie caret position will be
 in the shadow host's parent at the offset of the shadow host.
 
-The proposed change to the API maintains the boundary of closed shadow tree unless the shador root is provided to the API.
+The proposed change to the API maintains the boundary of closed shadow tree unless the shadow root is provided to the API.
 
 #### Alternative considered
 - Do not let this API pierce into shadow tree. Instead, put this API on `DocumentOrShadowRoot`.
