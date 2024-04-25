@@ -7,7 +7,7 @@ a [CaretPosition](https://www.w3.org/TR/cssom-view-1/#the-caretposition-interfac
 indicating current text insertion point. However, the spec is vague about the behavior in shadow DOM scenario.
 
 #### Proposal
-We should introduce another argument `shadowRoots` which is the list of shadow roots which the API can pierce into. The
+We should introduce another argument `shadowRoots` which is the list of shadow roots that the API can pierce into. The
 API will look like:
 
 ```js
